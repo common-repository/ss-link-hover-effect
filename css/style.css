@@ -1,0 +1,37 @@
+/*
+|--------------------------------------------------------------------------
+| 
+| SS Link Hover effects
+|--------------------------------------------------------------------------
+*/
+
+p  a{
+/*linear-gradient for hover background*/
+background:-webkit-gradient(linear,left top,left bottom,from(#FF2000),color-stop(#FF2000),0));
+background:-webkit-linear-gradient(#FF2000, #FF2000) no-repeat scroll center bottom / 100% 2px rgba(0, 0, 0, 0) !important;
+background:   -moz-linear-gradient(#FF2000, #FF2000) no-repeat scroll center bottom / 100% 2px rgba(0, 0, 0, 0) !important;
+background:     -o-linear-gradient(#FF2000, #FF2000) no-repeat scroll center bottom / 100% 2px rgba(0, 0, 0, 0) !important;
+background:        linear-gradient(#FF2000, #FF2000) no-repeat scroll center bottom / 100% 2px rgba(0, 0, 0, 0) !important;
+text-decoration:none !important;
+border:none !important;
+color:#FF2000 !important;
+padding:3px !important;
+/*transition*/
+-webkit-transition:background-size 0.2s ease 0s, color 0.1s ease 0.1s !important;
+   -moz-transition:background-size 0.2s ease 0s, color 0.1s ease 0.1s !important;
+     -o-transition:background-size 0.2s ease 0s, color 0.1s ease 0.1s !important;
+        transition:background-size 0.2s ease 0s, color 0.1s ease 0.1s !important;
+}
+
+
+p  a:hover{
+/*background-size*/
+-webkit-background-size:100% 100% !important;
+   -moz-background-size:100% 100% !important;
+     -o-background-size:100% 100% !important;
+        background-size:100% 100% !important;
+color:#fff !important;
+}
+
+ img  {background:none !important;}
+ img :hover{background:none !important;}
